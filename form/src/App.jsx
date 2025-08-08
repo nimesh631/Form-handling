@@ -5,6 +5,7 @@ import SimpleForm from './components/SimpleForm'
 import SimpleRHF from './components/SimpleRHF'
 import ValidationForm from './components/ValidationForm'
 import AsyncValidation from './components/AsyncValidationAndReset'
+import DynamicField from './components/DynamicField'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     {/* <OneStateForm/> */}
     {/* <ValidationForm/> */}
     {/* <AsyncValidation/> */}
-    <SimpleRHF/>
+    <DynamicField/>
+    {/* <SimpleRHF/> */}
     </>
   )
 }
